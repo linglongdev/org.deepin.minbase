@@ -1,0 +1,11 @@
+#!/bin/sh
+dpkg --purge --force-remove-essential libpam-modules-bin libpam-modules libpam-runtime libpam0g login debconf util-linux perl-base
+dpkg --purge --force-remove-essential gzip grep sed libuuid1 libudev1 ncurses-bin libsystemd0 bsdutils libsmartcols1 libmount1
+dpkg --purge --force-remove-essential libaudit-common libaudit1
+dpkg --purge --force-remove-essential libgcrypt20 libgpg-error0
+dpkg --purge --force-remove-essential base-passwd libdb5.3 libcrypt1 libcap2 libcap-ng0 libblkid1 init-system-helpers hostname findutils
+dpkg --purge --force-remove-essential usr-is-merged sysvinit-utils ncurses-base liblz4-1 libdebconfclient0
+/buildroot/usr/bin/busybox --install /buildroot/usr/local/bin
+dpkg --purge --force-remove-essential coreutils libssl3
+dpkg --purge --force-remove-essential --force-depends diffutils libbz2-1.0 liblzma5 libzstd1 tar zlib1g
+dpkg --purge --force-remove-essential --force-depends libmd0 dpkg
