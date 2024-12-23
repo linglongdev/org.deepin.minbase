@@ -1,0 +1,16 @@
+Package: libllvm17
+Package: libgl1-mesa-dri
+Package: fonts-croscore
+Package: fonts-dejavu-core
+Package: fonts-freefont-otf
+Package: fonts-freefont-ttf
+Package: fonts-liberation
+Package: fonts-noto-core
+Package: fonts-texgyre
+Package: fonts-urw-base35
+Package: libdrm-amdgpu1
+Package: libdrm-common
+Package: libdrm-intel1
+Package: libdrm-nouveau2
+Package: libdrm-radeon1
+Package: libdrm2
